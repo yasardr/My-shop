@@ -1,0 +1,29 @@
+.container-product {
+    color: black;
+    min-height: 325px;
+    max-height: 325px;
+    text-decoration: none !important;
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+.container-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px !important;
+}
+
+.img-product {
+    max-height: 200px !important;
+}
+
+.card-title {
+    margin-bottom: 0 !important;
+}
+
+.stock-product {
+    font-size: 12px;
+}

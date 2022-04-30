@@ -2,10 +2,7 @@
 
     class Connection {
         private static $connection = null;
-        /*$db_host = "localhost";
-        $db_name = "my_shop";
-        $db_user = "root";
-        $db_password = "";*/
+        
         public function __construct(){}
 
 		public static function connect(){

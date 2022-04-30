@@ -10,14 +10,14 @@
     <title>Shya</title>
 </head>
 
-<body>
-    <header class="mb-3">
+<body class="bg-light">
+    <header>
         <?php 
             require_once('Layouts/header.php');
         ?>	
     </header>
     <section>	
-        <div class="container">
+        <div class="container content mt-3">
             <?php 
                 require_once('routing.php');
             ?>

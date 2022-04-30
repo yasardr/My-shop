@@ -13,7 +13,7 @@
 					<a class="nav-link active" aria-current="page" href="/my_shop">Principal</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="?menu=products">Productos</a>
+					<a class="nav-link active" href="?menu=products">Productos</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,7 +40,7 @@
 			<?php 
 				if (isset($_SESSION['user'])) {
 					echo '
-						<a href="#">
+						<a href="?menu=cart">
 							<i class="fa-solid fa-cart-shopping text-white"></i>
 						</a>
 					';

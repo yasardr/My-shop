@@ -10,6 +10,12 @@
 			case 'products':
 				require_once('Products/index.php');
 				break;
+			case 'detail':
+				require_once('Products/detail.php');
+				break;
+			case 'cart':
+				require_once('Cart/index.php');
+				break;
 			default:
 				require_once('Layouts/notFound.php');
 				break;
