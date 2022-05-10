@@ -9,6 +9,6 @@
         }
     ?>
     <div class="col-12 d-flex justify-content-center">
-        <img src="https://picsum.photos/200/300" alt="welcome">
+        <img width="400" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Logo_vector.png" alt="welcome">
     </div>
 </div>

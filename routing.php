@@ -16,6 +16,9 @@
 			case 'cart':
 				require_once('Cart/index.php');
 				break;
+			case 'simulation':
+				require_once('Simulation/index.php');
+				break;
 			default:
 				require_once('Layouts/notFound.php');
 				break;
